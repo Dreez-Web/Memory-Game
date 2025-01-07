@@ -19,8 +19,9 @@
 - style.css
 - script.js
 
+> [!NOTE]
+> "Nunca te des por vencido"
+
 **Imagen**
 
 ![Captura del juego](/Images/Memory-SS.jpg "Juego")
-
-> - Lista
