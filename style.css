@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+body {
+  font-family: "Onest", serif;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fa9797;
+}
+
+.container {
+  text-align: center;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.card {
+  font-family: "Onest", serif;
+  font-weight: 700;
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.card.hidden {
+  background-color: #000;
+  color: transparent;
+}
+
+.card.matched {
+  background-color: #28a745;
+  color: white;
+  cursor: default;
+}
+
+#controls {
+  margin-top: 10px;
+}
+
+#timer {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+#start-button {
+  font-family: "Jersey 15", serif;
+  border: none;
+  border-radius: 5px;
+  color: #00060c;
+  font-weight: bold;
+  padding: 5px;
+  background-color: grey;
+  font-size: large;
+}
